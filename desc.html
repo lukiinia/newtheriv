@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Produk</title>
+    <link rel="stylesheet" href="stylekuk.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="homepage.html">Beranda</a>
+            <a href="cardshop.html">Belanja</a>
+            <a href="#">Kontak</a>
+            <a href="#">Keranjang</a>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <p>Tim berdedikasi untuk mengembangkan bisnis Anda</p>
+    </div>
+
+    <div class="search-sort-bar">
+        <div class="search-bar">
+            <input type="text" placeholder="Cari...">
+        </div>
+        <div class="sorting-options">
+            <span>Urutkan berdasarkan:</span>
+            <select>
+                <option>Relevansi</option>
+                <option>Harga: Rendah ke Tinggi</option>
+                <option>Harga: Tinggi ke Rendah</option>
+            </select>
+            <span class="total-count">24 hasil</span>
+        </div>
+    </div>
+
+    <main class="product-details">
+        <div class="product-image">
+            <img src="c:\Users\lukit\Downloads\image 7.png" alt="Sawi Tiongkok">
+        </div>
+        <div class="product-info">
+            <h1>Keripik Tempe 200 g</h1>
+            <p class="stock-status">Tersedia</p>
+            <div class="ratings">
+                <span class="stars">★★★★☆</span>
+                <span class="reviews">(24 ulasan)</span>
+            </div>
+            <p class="price">Rp 17.280 <span class="discounted">Rp 48.00</span></p>
+            <p class="discount">Diskon 65%</p>
+            <p class="description">Ini adalah deskripsi singkat produk. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button class="add-to-cart">Tambah ke Keranjang</button>
+        </div>
+    </main>
+
+    <section class="additional-info">
+        <div class="tabs">
+            <button class="tab active" data-tab="description">Deskripsi</button>
+            <button class="tab" data-tab="additional-info">Informasi Tambahan</button>
+            <button class="tab" data-tab="feedback">Umpan Balik Pelanggan</button>
+        </div>
+        <div class="tab-content" id="description">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel nibh ac nunc posuere placerat.</p>
+            <ul class="features">
+                <li>100% segar</li>
+                <li>Tinggi Vitamin A</li>
+            </ul>
+        </div>
+        <div class="tab-content" id="additional-info" style="display:none;">
+            <p>Informasi tambahan tentang produk.</p>
+        </div>
+        <div class="tab-content" id="feedback" style="display:none;">
+            <p>Umpan balik dan ulasan pelanggan.</p>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Utama</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Bagian Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="c:\Users\lukit\Downloads\Meubel House_Logos-05.png" alt="Logo Anda">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Beranda</a></li>
+                    <li><a href="#">Tentang</a></li>
+                    <li><a href="cardshop.html">Belanja</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Bagian Hero -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Keindahan dan ketenangan menanti di setiap sudut tempat ini </h1>
+            <button class="show-more" onclick="window.location.href='login.html'">Masuk</button>
+        </div>
+    </section>
+
+    <!-- Bagian Instagram -->
+    <section class="instagram">
+        <h2>Beberapa produk Kami</h2>
+        <div class="instagram-cards">
+            <div class="card">
+                <img src="c:\Users\lukit\Downloads\image 7.png" alt="Item Makanan 1">
+                <div class="card-content">
+                    <h3>Item Makanan 1</h3>
+                    <p>Rp 16.000</p>
+                    <button class="show-more" onclick="window.location.href='desc.html'">Beli</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="c:\Users\lukit\Downloads\image 7.png" alt="Item Makanan 2">
+                <div class="card-content">
+                    <h3>Item Makanan 2</h3>
+                    <p>Rp 19.000</p>
+                    <button>Beli</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="c:\Users\lukit\Downloads\image 7.png" alt="Item Makanan 3">
+                <div class="card-content">
+                    <h3>Item Makanan 3</h3>
+                    <p>Rp 15.000</p>
+                    <button>Beli</button>
+                </div>
+            </div>
+        </div>
+        <button class="show-more" onclick="window.location.href='cardshop.html'">Tampilkan lebih banyak</button>
+    </section>
+
+    <!-- Bagian Peta -->
+    <section class="map-section">
+        <div class="map-container">
+            <div id="map"></div>
+        </div>
+    </section>
+    
+    <!-- Bagian Testimoni -->
+    <section class="testimonials">
+        <h2>Apa kata klien kami</h2>
+        <div class="testimonial-cards">
+            <div class="testimonial">
+                <p>"Layanan hebat dan produk yang luar biasa!"</p>
+                <h3>- John Doe</h3>
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+            </div>
+            <div class="testimonial">
+                <p>"Sangat direkomendasikan bagi siapa saja yang ingin mengembangkan bisnis mereka."</p>
+                <h3>- Jane Smith</h3>
+                <div class="stars">⭐⭐⭐⭐</div>
+            </div>
+            <div class="testimonial">
+                <p>"Tim yang profesional dan dapat diandalkan."</p>
+                <h3>- Sarah Johnson</h3>
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Footer -->
+    <footer>
+        <div class="footer-links">
+            <div class="link-group">
+                <h4>Produk</h4>
+                <ul>
+                    <li><a href="#">Fitur 1</a></li>
+                    <li><a href="#">Fitur 2</a></li>
+                    <li><a href="#">Fitur 3</a></li>
+                </ul>
+            </div>
+            <div class="link-group">
+                <h4>Perusahaan</h4>
+                <ul>
+                    <li><a href="#">Tentang Kami</a></li>
+                    <li><a href="#">Karir</a></li>
+                    <li><a href="#">Pers</a></li>
+                </ul>
+            </div>
+            <div class="link-group">
+                <h4>Dukungan</h4>
+                <ul>
+                    <li><a href="#">Pusat Bantuan</a></li>
+                    <li><a href="#">Kontak Dukungan</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="link-group">
+                <h4>Unduh</h4>
+                <ul>
+                    <li><a href="#">Aplikasi iOS</a></li>
+                    <li><a href="#">Aplikasi Android</a></li>
+                    <li><a href="#">Aplikasi Desktop</a></li>
+                </ul>
+            </div>
+        </div>
+        <p>&copy; 2024 Perusahaan Anda. Hak cipta dilindungi undang-undang.</p>
+    </footer>
+
+    <!-- Google Maps API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+    <script src="map.js"></script>
+</body>
+</html>

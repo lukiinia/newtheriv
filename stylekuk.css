@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end; /* Pindahkan konten ke kanan */
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    margin-right: auto; /* Pindahkan logo ke kiri */
+}
+
+header nav {
+    margin-left: auto; /* Pindahkan navbar ke kanan */
+}
+
+header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Sisa kode CSS tetap sama */
+.banner {
+    background-color: #39592B;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.search-sort-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.sorting-options {
+    display: flex;
+    align-items: center;
+}
+
+.sorting-options span, .sorting-options select {
+    margin-right: 10px;
+}
+
+.product-details {
+    display: flex;
+    padding: 20px;
+    background-color: #fff;
+    margin: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-image img {
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+.product-info {
+    max-width: 600px;
+}
+
+.product-info h1 {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+}
+
+.stock-status {
+    color: green;
+    font-weight: bold;
+}
+
+.ratings {
+    margin: 10px 0;
+}
+
+.stars {
+    color: #FFD700;
+}
+
+.reviews {
+    margin-left: 10px;
+}
+
+.price {
+    font-size: 24px;
+    color: #e60000;
+    margin: 10px 0;
+}
+
+.discounted {
+    text-decoration: line-through;
+    margin-left: 10px;
+    color: #888;
+}
+
+.discount {
+    color: green;
+    font-weight: bold;
+}
+
+.description {
+    margin: 20px 0;
+}
+
+.add-to-cart {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #45a049;
+}
+
+.additional-info {
+    margin: 20px 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tabs {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+}
+
+.tab {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.tab.active {
+    border-bottom: 2px solid #4CAF50;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.tab-content {
+    padding: 20px 0;
+}
+
+.features {
+    list-style: none;
+    padding: 0;
+}
+
+.features li {
+    margin: 5px 0;
+    padding-left: 20px;
+    position: relative;
+}
+
+.features li:before {
+    content: "✔";
+    color: #4CAF50;
+    position: absolute;
+    left: 0;
+}
